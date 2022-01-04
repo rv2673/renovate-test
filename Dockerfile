@@ -1,5 +1,5 @@
 # ubuntu:20.04
-FROM ubuntu:focal-20211006
+FROM ubuntu:focal-20211006@sha256:626ffe58f6e7566e00254b638eb7e0f3b11d4da9675088f4781a50ae288f3322
 
 # Versions
 # renovate: datasource=repology depName=python3.8 lookupName=ubuntu_20_04/python3.8 versioning=loose
