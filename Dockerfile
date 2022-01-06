@@ -3,9 +3,9 @@ FROM ubuntu:focal-20211006
 
 # Versions
 # renovate: datasource=repology depName=python3.8 lookupName=ubuntu_20_04/python3.8 versioning=loose
-ARG V_PYTHON38="3.8.10-0ubuntu1~20.04.1"
+ARG V_PYTHON38="3.8.10-0ubuntu1~20.04.2"
 # renovate: datasource=repology depName=wget lookupName=ubuntu_20_04/wget versioning=loose
-ARG V_WGET="1.20.3-1ubuntu1"
+ARG V_WGET="1.20.3-1ubuntu2"
 
 RUN apt-get update \
   # suppress configuration prompts
