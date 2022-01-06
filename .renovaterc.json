@@ -3,6 +3,9 @@
   "extends": ["config:base"],
   "onboarding": false,
   "requireConfig": true,
+  "repositories": [
+    "rv2673/renovate-test"
+  ],
   "packageRules": [
     {
       "matchPackagePatterns": ["*"],
