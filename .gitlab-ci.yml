@@ -2,7 +2,7 @@ stages:
   - validate
 
 validate0:
-  image: alpine:3.13.6
+  image: alpine:3.13.6@sha256:2582893dec6f12fd499d3a709477f2c0c0c1dfcd28024c93f1f0626b9e3540c8
   stage: validate
   script:
     - echo "hello"
