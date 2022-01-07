@@ -1,0 +1,20 @@
+stages:
+  - validate
+
+validate0:
+  image: alpine:3.13.6
+  stage: validate
+  script:
+    - echo "hello"
+
+validate1:
+  image: ${CI_DEPENDENCY_PROXY_GROUP_IMAGE_PREFIX}/hadolint/hadolint:v2.7.0
+  stage: validate
+  script:
+    - echo "hello"
+
+validate2:
+  image: $CI_REGISTRY/nginx:1.21.4
+  stage: validate
+  script:
+    - echo "hello"
